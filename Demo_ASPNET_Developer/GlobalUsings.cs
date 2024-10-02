@@ -1,0 +1,17 @@
+﻿global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using Microsoft.Extensions.Caching.Memory;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Demo_ASPNET_Developer.Data.Entities;
+global using Demo_ASPNET_Developer.Extensions;
+global using Demo_ASPNET_Developer.Services;
+global using Demo_ASPNET_Developer.Models;
+global using Demo_ASPNET_Developer.Data;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Serilog;
