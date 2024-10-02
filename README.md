@@ -9,19 +9,16 @@ Yêu cầu hệ thống
 1. Clone dự án Sử dụng Git để clone dự án về máy tính
 git clone https://github.com/hoanglan11037/Demo_ASPNET_API
 
-3. Cài đặt các gói cần thiết
-dotnet restore
-
-3.Cấu hình cơ sở dữ liệu
+2.Cấu hình cơ sở dữ liệu
 Mở tệp appsettings.json và chỉnh sửa chuỗi kết nối đến cơ sở dữ liệu SQL Server 
 - "ConnectionStrings": { "DemoConnection": "Data Source=DESKTOP-LDKNLOS\SQLEXPRESS;Initial Catalog=DemoDatabase;Integrated Security=True;Encrypt=False;Trust Server Certificate=True" }
 
 - Tạo bảng và áp dụng migration để tạo bảng trong cơ sở dữ liệu Add-Migration Initial Update-Database
 
-4. Chạy ứng dụng
+3. Chạy ứng dụng
 dotnet run
 
-6. Endpoint API Kiểm tra các endpoint của API bằng cách sử dụng Postman. Mặc định, API sẽ chạy trên http://localhost:5000
+4. Endpoint API Kiểm tra các endpoint của API bằng cách sử dụng Postman. Mặc định, API sẽ chạy trên http://localhost:5000
 
 Endpoint:
 
