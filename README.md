@@ -7,7 +7,7 @@ Yêu cầu hệ thống
 - SQL Server
   
 1. Clone dự án Sử dụng Git để clone dự án về máy tính
-git clone https://github.com/yourusername/your-repo-name.git cd your-repo-name
+git clone https://github.com/hoanglan11037/Demo_ASPNET_API
 
 3. Cài đặt các gói cần thiết
 dotnet restore
