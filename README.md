@@ -18,7 +18,7 @@ Mở tệp appsettings.json và chỉnh sửa chuỗi kết nối đến cơ s�
 3. Chạy ứng dụng
 dotnet run
 
-4. Endpoint API Kiểm tra các endpoint của API bằng cách sử dụng Postman. Mặc định, API sẽ chạy trên http://localhost:5000
+4. Endpoint API Kiểm tra các endpoint của API bằng cách sử dụng Postman. Mặc định, API sẽ chạy trên http://localhost:5041
 
 Endpoint:
 
